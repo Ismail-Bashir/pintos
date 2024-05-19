@@ -1,0 +1,2 @@
+#!/bin/bash
+docker run --rm --name pintos -it -v "$(pwd):/pintos" thierrysans/pintos bash
